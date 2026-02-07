@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
-const API_KEY = "AIzaSyBqw4HYQXWzv4knF0pMpXv_SotYGhsyg6o"; // USER MUST REPLACE THIS
-const SHEET_ID = "1USMh-a0ap-77qmC5jmogqs8fJwksfss2Qusrwf3konk";
+const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+const SHEET_ID = import.meta.env.VITE_SHEET_ID;
 const SHEET_NAME = "Form responses 1";
 
 export const useSheetData = () => {
