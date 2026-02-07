@@ -9,10 +9,10 @@ const Dashboard = () => {
     const { total, eventCounts, recentRegistrations, newRegistrationsCount } = useSheetData();
 
     return (
-        <div className="min-h-screen w-full bg-[#0B0F1A] text-white relative overflow-hidden font-sans select-none">
+        <div className="min-h-screen w-full bg-[#0B0F1A] text-white relative overflow-x-hidden font-sans select-none">
             <BackgroundEffect />
 
-            <div className="relative z-10 w-full h-screen p-4 md:p-12 flex flex-col md:flex-row gap-8">
+            <div className="relative z-10 w-full min-h-screen md:h-screen p-4 md:p-12 flex flex-col md:flex-row gap-8">
 
                 {/* LEFT COLUMN: COUNTERS */}
                 <div className="flex-1 flex flex-col justify-between">
