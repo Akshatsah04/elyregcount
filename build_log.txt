@@ -1,0 +1,39 @@
+﻿
+> elyregcount@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 3 modules transformed.
+node.exe : [31mΓ£ù[39m Build failed in 57ms
+At C:\Program Files\nodejs\npm.ps1:29 char:3
++   & $NODE_EXE $NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([31mΓ£ù[39m Buil 
+   d failed in 57ms:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[31merror during build:
+[31m[vite:css] Failed to load PostCSS config (searchPath: 
+C:/vs code/web site/elyregcount): [Error] Loading PostCSS 
+Plugin failed: Cannot find module 'tailwindcss'
+Require stack:
+- C:\vs code\web site\elyregcount\postcss.config.js
+
+(@C:\vs code\web site\elyregcount\postcss.config.js)
+Error: Loading PostCSS Plugin failed: Cannot find module 
+'tailwindcss'
+Require stack:
+- C:\vs code\web site\elyregcount\postcss.config.js
+
+(@C:\vs code\web site\elyregcount\postcss.config.js)
+    at load (file:///C:/vs%20code/web%20site/elyregcount/node_mo
+dules/vite/dist/node/chunks/config.js:7660:10)
+    at async Promise.all (index 0)
+    at async plugins (file:///C:/vs%20code/web%20site/elyregcoun
+t/node_modules/vite/dist/node/chunks/config.js:7682:11)
+    at async processResult (file:///C:/vs%20code/web%20site/elyr
+egcount/node_modules/vite/dist/node/chunks/config.js:7721:13)[3
+1m
+file: [36mC:/vs code/web site/elyregcount/src/index.css[31m
+[39m
